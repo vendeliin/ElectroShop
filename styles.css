@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+body{
+    margin-right: 20vh;
+    margin-left: 20vh;
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff3737;
+}
+
+.flex-container1 div{
+    margin: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 2.4vh;
+}
+
+.banner{
+    display: flex;
+    /*this centers the text horizontally*/
+    justify-content: center;
+
+    /*this centers the text vertically*/
+    align-items: center;
+
+    background-color: #ebeaea;
+    height: 20vh;
+}
+
+.banner h1 {
+    font-size: 7vh;
+    vertical-align: middle; 
+    color: #717071;
+}
+
+.grid-container{ 
+    display: grid;
+    height: 100%;
+    grid-template-rows: minmax(auto, 67) minmax(auto, 402) minmax(auto, 67) minmax(auto, 134) ;
+    row-gap: 2vh;
+    color: #898988;
+}
+
+.item-a {
+    font-size: 3.5vh;
+    font-weight: 200;
+}
+
+.item-b {
+    display: grid;
+    row-gap: 2vh;
+}
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container2 img {
+    height: 20vh;
+    width: 20vh;
+}
+
+.flex-container2 div {
+    width: 18vh;
+}
+
+.flex-container2 .old-price {
+    text-decoration: line-through ;
+}
+
+.aa {
+    font-size: 25px;
+}
+
+.item-d {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vh;
+}
+
+.item-d img {
+    float: left;
+    width:  auto;
+    height: 100px;
+    object-fit: cover;
+}
+
+.flex-container3 {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff3737;
+}
+
+.flex-container3 div{
+    margin: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 2.4vh;
+}
+
+.footer {
+    text-align: center;
+    margin: 3vh;
+    color: #898988;
+}
